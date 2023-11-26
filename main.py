@@ -9,7 +9,7 @@ def Spambot():
         time.sleep(1)
         if x == 5:
             for q in range(50):
-                pyautogui.write("Kamu nanyea?")
+                pyautogui.write("Text that you want to spam")
                 pyautogui.press("Enter")
                 time.sleep(0.5)
 
